@@ -1,0 +1,8 @@
+<% @posts.each do |post| %>
+<div>
+  <p>体重：<%= post.weight %></p>
+  <p>説明：<%= post.caption %></p>
+  <p>ユーザーネーム：<%= post.user.name %></p>
+  <%= link_to '詳細', post_path(post.id) %>
+</div>
+<% end %>
