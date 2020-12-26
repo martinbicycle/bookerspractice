@@ -14,3 +14,7 @@
 //= require activestorage
 //= require turbolinks
 //= require_tree .
+
+var title = "javascriptが使えました";
+alert(title);
+
